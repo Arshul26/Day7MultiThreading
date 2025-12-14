@@ -6,7 +6,7 @@ public class test {
         World w = new World();
         Thread t1 = new Thread(w);
         t1.start();
-        //w.start();
+        w.start();
 
 
         for(;;){
